@@ -7,7 +7,6 @@ import { FeatureGrid } from '../components/FeatureGrid';
 import { StatsSection } from '../components/StatsSection';
 import { Methodology } from '../components/Methodology';
 import { CTASection } from '../components/CTASection';
-import { Footer } from '../components/Footer';
 
 export default function Page() {
   return (
@@ -22,9 +21,7 @@ export default function Page() {
         <StatsSection />
         <Methodology />
         <CTASection />
-        <Footer />
       </main>
     </>
   );
 }
-
