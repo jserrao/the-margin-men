@@ -28,9 +28,28 @@ export function Hero() {
         <Modal
           isOpen={isModalOpen}
           onClose={() => setIsModalOpen(false)}
-          title="Book Consultation"
+          title="Talk to the Experts"
         >
-          <div>Hello</div>
+          <div>
+            John and Jeff are ready to help your organization defend its margins
+            from AI.
+          </div>
+          <div>
+            <h3>John Serrao</h3>
+            <p>
+              John is a seasoned executive with a background in technology and
+              business. He has worked with some of the world's largest companies
+              to help them defend their margins from AI.
+            </p>
+          </div>
+          <div>
+            <h3>Jeffrey Hoffman</h3>
+            <p>
+              Jeffrey is a seasoned executive with a background in technology
+              and business. He has worked with some of the world's largest
+              companies to help them defend their margins from AI.
+            </p>
+          </div>
         </Modal>
       </div>
     </section>

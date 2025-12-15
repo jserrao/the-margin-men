@@ -17,9 +17,9 @@ export default function Page() {
       <main className="relative z-10 pt-32 pb-20">
         <Hero />
         <ScrollingTicker />
+        <Methodology />
         <FeatureGrid />
         <StatsSection />
-        <Methodology />
         <CTASection />
       </main>
     </>
