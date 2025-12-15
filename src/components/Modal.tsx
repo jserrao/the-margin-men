@@ -1,19 +1,28 @@
 'use client';
 
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 
 interface ModalProps {
   isOpen: boolean;
   onClose: () => void;
-  title: string;
+  title: React.ReactNode;
   children: React.ReactNode;
 }
 
 export function Modal({ isOpen, onClose, title, children }: ModalProps) {
+  const [isAnimating, setIsAnimating] = useState(false);
+
   useEffect(() => {
     if (isOpen) {
       document.body.style.overflow = 'hidden';
+      // Trigger animation after mount
+      requestAnimationFrame(() => {
+        requestAnimationFrame(() => {
+          setIsAnimating(true);
+        });
+      });
     } else {
+      setIsAnimating(false);
       document.body.style.overflow = '';
     }
     return () => {
@@ -21,26 +30,44 @@ export function Modal({ isOpen, onClose, title, children }: ModalProps) {
     };
   }, [isOpen]);
 
+  const handleClose = () => {
+    setIsAnimating(false);
+    // Wait for animation to complete before closing
+    setTimeout(() => {
+      onClose();
+    }, 200);
+  };
+
   if (!isOpen) return null;
 
   return (
     <div
-      className="fixed inset-0 z-50 flex items-center justify-center p-4"
-      onClick={onClose}
+      className={`fixed inset-0 z-50 flex items-center justify-center p-4 transition-opacity duration-200 ${
+        isAnimating ? 'opacity-100' : 'opacity-0'
+      }`}
+      onClick={handleClose}
     >
       {/* Backdrop */}
-      <div className="absolute inset-0 bg-black/60 backdrop-blur-sm" />
+      <div
+        className={`absolute inset-0 bg-black/60 backdrop-blur-sm transition-opacity duration-200 ${
+          isAnimating ? 'opacity-100' : 'opacity-0'
+        }`}
+      />
 
       {/* Modal Content */}
       <div
-        className="relative bg-white rounded-[5px] max-w-2xl w-full max-h-[90vh] overflow-y-auto shadow-2xl"
+        className={`relative bg-white rounded-[5px] max-w-2xl w-full max-h-[90vh] overflow-y-auto shadow-2xl transition-all duration-200 ${
+          isAnimating
+            ? 'opacity-100 scale-100 translate-y-0'
+            : 'opacity-0 scale-95 translate-y-4'
+        }`}
         onClick={(e) => e.stopPropagation()}
       >
         {/* Header */}
         <div className="sticky top-0 bg-white border-b border-gray-200 px-6 py-4 flex items-center justify-between rounded-t-[5px]">
           <h2 className="text-2xl font-medium text-black">{title}</h2>
           <button
-            onClick={onClose}
+            onClick={handleClose}
             className="text-gray-400 hover:text-gray-600 transition-colors"
             aria-label="Close modal"
           >
@@ -69,4 +96,3 @@ export function Modal({ isOpen, onClose, title, children }: ModalProps) {
     </div>
   );
 }
-

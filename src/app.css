@@ -1,5 +1,10 @@
 @import 'tailwindcss';
 
+/* Custom font utility */
+.font-baskerville {
+  font-family: 'Libre Baskerville', serif;
+}
+
 /* Custom utilities */
 .grid-bg {
   background-size: 40px 40px;

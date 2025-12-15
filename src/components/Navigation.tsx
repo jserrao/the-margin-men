@@ -13,11 +13,11 @@ export function Navigation() {
             alt="The Margin Men"
             className="h-6 md:h-24 w-auto"
           />
-          <span className="text-2xl font-bold">The Margin Men</span>
+          <span className="text-2xl font-baskerville">The Margin Men</span>
         </Link>
 
         <div className="flex items-center gap-4">
-          <button className="bg-black text-white text-md font-medium px-4 py-2 rounded-full hover:bg-black/80 transition-colors">
+          <button className="cursor-pointer bg-black text-white text-md font-medium px-4 py-2 rounded-full hover:bg-black/80 transition-colors">
             Book Consultation
           </button>
         </div>
