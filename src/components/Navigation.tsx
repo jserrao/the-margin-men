@@ -9,7 +9,7 @@ export function Navigation() {
           className="text-black text-lg font-medium tracking-tighter flex items-center gap-2"
         >
           <img
-            src="/images/the-margin-men.png"
+            src="/images/the-margin-men.jpg"
             alt="The Margin Men"
             className="h-6 md:h-24 w-auto"
           />
