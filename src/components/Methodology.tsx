@@ -10,8 +10,9 @@ export function Methodology() {
             AI is forcing margin compression. Are you prepared?
           </h2>
           <p className="text-neutral-400 text-lg font-light">
-            Watch Gavin Baker explain the trap SaaS companies face as AI grows
-            in power.
+            Watch famous investor Gavin Baker, Managing Partner at Atreides
+            Management, explain the trap SaaS companies face as AI grows in
+            power.
           </p>
         </div>
       </div>
@@ -28,6 +29,18 @@ export function Methodology() {
           ></iframe>
         </div>
       </div>
+      <p>
+        Clip from{' '}
+        <a
+          href="https://open.spotify.com/show/22fi0RqfoBACCuQDv97wFO?si=0cbd8a9b7fa74050"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="underline"
+        >
+          Invest Like The Best, hosted by Patrick O'Shaughnessy
+        </a>
+        , great podcast - watch the whole thing!
+      </p>
     </section>
   );
 }
