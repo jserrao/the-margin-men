@@ -6,7 +6,7 @@ export function Methodology() {
     >
       <div className="flex flex-col md:flex-row justify-between items-start mb-16 gap-8">
         <div>
-          <h2 className="text-3xl md:text-4xl font-medium text-white tracking-tight mb-4">
+          <h2 className="font-baskerville text-3xl md:text-4xl font-medium text-white tracking-tight mb-4">
             AI is forcing margin compression. Are you prepared?
           </h2>
           <p className="text-neutral-400 text-lg font-light">

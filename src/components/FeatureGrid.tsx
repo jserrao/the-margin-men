@@ -5,7 +5,7 @@ export function FeatureGrid() {
       className="max-w-7xl mx-auto px-6 mt-32 relative z-10"
     >
       <div className="mb-16">
-        <h2 className="text-3xl md:text-4xl font-medium text-white tracking-tight mb-4">
+        <h2 className="font-baskerville text-3xl md:text-4xl font-medium text-white tracking-tight mb-4">
           How We Help You Defend Your Margins
         </h2>
         <p className="text-neutral-400 text-lg max-w-xl font-light">
