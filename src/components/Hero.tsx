@@ -9,7 +9,7 @@ export function Hero() {
   return (
     <section className="max-w-5xl mx-auto px-6 text-center flex flex-col items-center my-24 relative">
       <h1 className="font-baskerville text-4xl md:text-7xl lg:text-8xl pb-4 font-medium text-transparent bg-clip-text bg-linear-to-b from-white via-neutral-100 to-neutral-500 tracking-tighter mb-6 text-glow leading-[1.1] relative z-20">
-        Defending Your Margins From AI
+        Protecting Your Margins From AI
       </h1>
 
       <div className="flex flex-col sm:flex-row items-center gap-4 w-full justify-center relative z-20 mt-10">

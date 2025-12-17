@@ -10,7 +10,7 @@ export default function RootLayout({
       <head>
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>The Margin Men - Defending Your Margins From AI</title>
+        <title>The Margin Men - Protecting Your Margins From AI</title>
         <meta
           name="description"
           content="The Margin Men, John Serrao and Jeffrey Hoffman, help SaaS companies defend their margins from AI disruption through deep analysis, product optimization, and executive training."
@@ -21,7 +21,7 @@ export default function RootLayout({
         <meta property="og:url" content="https://www.themarginmen.com" />
         <meta
           property="og:title"
-          content="The Margin Men - Defending Your Margins From AI"
+          content="The Margin Men - Protecting Your Margins From AI"
         />
         <meta
           property="og:description"
@@ -37,7 +37,7 @@ export default function RootLayout({
         <meta name="twitter:url" content="https://www.themarginmen.com" />
         <meta
           name="twitter:title"
-          content="The Margin Men - Defending Your Margins From AI"
+          content="The Margin Men - Protecting Your Margins From AI"
         />
         <meta
           name="twitter:description"
