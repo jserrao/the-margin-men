@@ -4,7 +4,7 @@ import { Navigation } from '../components/Navigation';
 import { Hero } from '../components/Hero';
 import { ScrollingTicker } from '../components/ScrollingTicker';
 import { FeatureGrid } from '../components/FeatureGrid';
-import { StatsSection } from '../components/StatsSection';
+import { PartnersDetailSection } from '../components/PartnersDetailSection';
 import { Methodology } from '../components/Methodology';
 import { CTASection } from '../components/CTASection';
 
@@ -19,7 +19,7 @@ export default function Page() {
         <ScrollingTicker />
         <Methodology />
         <FeatureGrid />
-        <StatsSection />
+        <PartnersDetailSection />
         <CTASection />
       </main>
     </>

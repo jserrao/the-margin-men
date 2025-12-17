@@ -1,4 +1,4 @@
-export function StatsSection() {
+export function PartnersDetailSection() {
   return (
     <>
       <section id="bios" className="max-w-7xl mx-auto px-6 mt-32 relative z-10">
@@ -7,7 +7,7 @@ export function StatsSection() {
             Meet the Margin Men
           </h2>
           <p className="text-neutral-400 text-lg max-w-xl font-light">
-            John Serrao and Jeffrey Hoffman offer a wealth of experience in
+            Jeffrey Hoffman and John Serrao offer a wealth of experience in
             consulting clients.
           </p>
         </div>
@@ -22,7 +22,7 @@ export function StatsSection() {
               <div className="mb-8">
                 <div className="w-[50%] border-white/10 flex items-center justify-center bg-neutral-800/50 mb-6 text-white">
                   <img
-                    src="/images/john.jpg"
+                    src="/images/john.webp"
                     alt="John Serrao"
                     className="w-full"
                   />
@@ -67,7 +67,7 @@ export function StatsSection() {
             <div className="p-8 h-full relative z-10">
               <div className="w-[50%] border-white/10 flex items-center justify-center bg-neutral-800/50 mb-6 text-white">
                 <img
-                  src="/images/jeff.jpg"
+                  src="/images/jeff.webp"
                   alt="Jeffrey Hoffman"
                   className="w-full"
                 />
