@@ -11,10 +11,11 @@ export function Methodology() {
             Is your organization prepared?
           </h2>
           <p className="text-neutral-400 text-lg font-light">
-            Gemini, Opus, and Grok will write the majority of code that reaches
-            production in 2026. These AI tools will reduce the margin legacy
-            SaaS companies have long enjoyed. Watch famous investor Gavin Baker,
-            Managing Partner at Atreides Management, explain the trap.
+            Many SaaS businesses reporting 70–80% gross margins are structurally
+            unprepared for a world where real margins normalize closer to
+            30–40%. We help companies redesign their financial and operating
+            models before the compression happens. Watch famous investor Gavin
+            Baker, Managing Partner at Atreides Management, explain the trap.
           </p>
         </div>
       </div>
@@ -31,7 +32,7 @@ export function Methodology() {
           ></iframe>
         </div>
       </div>
-      <p>
+      <p className="text-neutral-400 text-lg font-light mt-4 md:px-0 px-6">
         Clip from{' '}
         <a
           href="https://open.spotify.com/show/22fi0RqfoBACCuQDv97wFO?si=0cbd8a9b7fa74050"

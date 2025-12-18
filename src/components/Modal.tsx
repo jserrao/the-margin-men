@@ -68,7 +68,7 @@ export function Modal({ isOpen, onClose, title, children }: ModalProps) {
           <h2 className="text-2xl font-medium text-black">{title}</h2>
           <button
             onClick={handleClose}
-            className="text-gray-400 hover:text-gray-600 transition-colors"
+            className="text-gray-400 hover:text-gray-600 transition-colors cursor-pointer "
             aria-label="Close modal"
           >
             <svg
@@ -89,9 +89,7 @@ export function Modal({ isOpen, onClose, title, children }: ModalProps) {
         </div>
 
         {/* Content */}
-        <div className="px-6 py-4 text-md leading-normal text-gray-700">
-          {children}
-        </div>
+        <div className="px-6 py-4">{children}</div>
       </div>
     </div>
   );

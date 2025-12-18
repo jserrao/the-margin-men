@@ -1,4 +1,8 @@
-export function CTASection() {
+interface CTASectionProps {
+  onChatOpen?: () => void;
+}
+
+export function CTASection({ onChatOpen }: CTASectionProps) {
   return (
     <section className="max-w-4xl mx-auto px-6 mt-32 mb-20 relative z-10">
       <div className="relative rounded-3xl overflow-hidden border border-white/10 bg-white p-12 md:p-20 text-center">
@@ -19,8 +23,11 @@ export function CTASection() {
         </p>
 
         <div className="relative z-10 flex flex-col sm:flex-row items-center justify-center gap-4">
-          <button className="w-full sm:w-auto px-8 py-3 bg-blue-500 text-white rounded-full font-medium hover:bg-neutral-200 transition-colors">
-            Get Started
+          <button
+            onClick={onChatOpen}
+            className="cursor-pointer w-full sm:w-auto px-8 py-3 bg-blue-500 text-white rounded-full font-medium hover:bg-blue-600 transition-colors"
+          >
+            Chat with the Experts
           </button>
         </div>
       </div>
