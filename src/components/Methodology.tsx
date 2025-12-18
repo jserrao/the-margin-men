@@ -15,7 +15,8 @@ export function Methodology() {
             unprepared for a world where real margins normalize closer to
             30–40%. We help companies redesign their financial and operating
             models before the compression happens. Watch famous investor Gavin
-            Baker, Managing Partner at Atreides Management, explain the trap.
+            Baker, Managing Partner at Atreides Management, explain the margin
+            trap we help you avoid.
           </p>
         </div>
       </div>

@@ -30,7 +30,7 @@ export default function Page() {
     <>
       <BackgroundGrid />
       <CentralStreak />
-      <Navigation />
+      <Navigation onChatOpen={() => setIsChatOpen(true)} />
       <main className="relative z-10 pt-32 pb-20">
         <Hero onChatOpen={() => setIsChatOpen(true)} />
         <ScrollingTicker />
