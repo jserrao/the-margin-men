@@ -6,13 +6,15 @@ export function Methodology() {
     >
       <div className="flex flex-col md:flex-row justify-between items-start mb-16 gap-8">
         <div>
-          <h2 className="font-baskerville text-3xl md:text-4xl font-medium text-white tracking-tight mb-4">
-            AI is forcing margin compression. Are you prepared?
+          <h2 className="font-baskerville text-3xl md:text-4xl font-medium text-white tracking-tight mb-4 leading-normal">
+            How we write software is changing quickly. <br />
+            Is your organization prepared?
           </h2>
           <p className="text-neutral-400 text-lg font-light">
-            Watch famous investor Gavin Baker, Managing Partner at Atreides
-            Management, explain the trap SaaS companies face as AI grows in
-            power.
+            Gemini, Opus, and Grok will write the majority of code that reaches
+            production in 2026. These AI tools will reduce the margin legacy
+            SaaS companies have long enjoyed. Watch famous investor Gavin Baker,
+            Managing Partner at Atreides Management, explain the trap.
           </p>
         </div>
       </div>

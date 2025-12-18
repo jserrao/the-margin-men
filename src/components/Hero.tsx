@@ -7,7 +7,7 @@ export function Hero() {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   return (
-    <section className="max-w-5xl mx-auto px-6 text-center flex flex-col items-center my-24 relative">
+    <section className="max-w-5xl mx-auto px-6 text-center flex flex-col items-center sm:mt-24 sm:mb-24 mt-40 mb-24 relative">
       <h1 className="font-baskerville text-4xl md:text-7xl lg:text-8xl pb-4 font-medium text-transparent bg-clip-text bg-linear-to-b from-white via-neutral-100 to-neutral-500 tracking-tighter mb-6 text-glow leading-[1.1] relative z-20">
         Protecting Your Margins From AI
       </h1>

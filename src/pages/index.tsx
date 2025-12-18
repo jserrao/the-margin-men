@@ -7,6 +7,7 @@ import { FeatureGrid } from '../components/FeatureGrid';
 import { PartnersDetailSection } from '../components/PartnersDetailSection';
 import { Methodology } from '../components/Methodology';
 import { CTASection } from '../components/CTASection';
+import { SocialProofSection } from '../components/SocialProofSection';
 
 export default function Page() {
   return (
@@ -18,6 +19,7 @@ export default function Page() {
         <Hero />
         <ScrollingTicker />
         <Methodology />
+        <SocialProofSection />
         <FeatureGrid />
         <PartnersDetailSection />
         <CTASection />
